@@ -38,7 +38,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned how to select a single rating our of five rating options, store the selected rating, and display it on a second page using JS DOM manipulation.
+In this project, I learned how to select a single rating out of five rating options, store the selected rating, and display it on a second page using JS DOM manipulation.
 
 ```js
 for (const button of formbuttons) {
