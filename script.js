@@ -11,7 +11,7 @@ for (const button of formbuttons) {
 			if (buttons2.id !== button.id) {
 				buttons2.style.backgroundColor = "hsl(214, 20%, 22%)"; // orange
 			} else {
-				buttons2.style.backgroundColor = "gray"; // gray
+				buttons2.style.backgroundColor = "hsla(217, 12%, 63%, 0.5)"; // gray
 				buttons2.style.color = "hsl(0, 0%, 100%)"; // white
 				rating.innerText = buttons2.id;
 			}
