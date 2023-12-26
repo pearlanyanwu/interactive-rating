@@ -42,16 +42,16 @@ In this project, I learned how to select a single rating out of five rating opti
 
 ```js
 for (const button of formbuttons) {
-	button.addEventListener("click", () => {
-		for (const buttons2 of formbuttons) {
-			if (buttons2.id !== button.id) {
-				buttons2.style.backgroundColor = "hsl(214, 20%, 22%)"; // orange
-			} else {
-				buttons2.style.backgroundColor = "hsla(217, 12%, 63%, 0.5)"; // gray
-				buttons2.style.color = "hsl(0, 0%, 100%)"; // white
-				rating.innerText = buttons2.id;
-			}
-		}
-	});
+  button.addEventListener("click", () => {
+    for (const buttons2 of formbuttons) {
+      if (buttons2.id !== button.id) {
+        buttons2.style.backgroundColor = "hsl(214, 20%, 22%)"; // orange
+      } else {
+        buttons2.style.backgroundColor = "hsla(217, 12%, 63%, 0.5)"; // gray
+        buttons2.style.color = "hsl(0, 0%, 100%)"; // white
+        rating.innerText = buttons2.id;
+      }
+    }
+  });
 }
 ```
